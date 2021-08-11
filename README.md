@@ -16,7 +16,7 @@
 3. Run kafka server `./kafka-server-start.sh -daemon ../config/server.properties`
 
 ## Step4. Create topic
-1. `./kafka-topics.sh --create bluezine --bootstrap-server localhost:9092` (If the Kafka configuration is the default, port is 9092)
+1. `./kafka-topics.sh --create spring --bootstrap-server localhost:9092` (If the Kafka configuration is the default, port is 9092)
 
 ## Step5. Run kafka consumer
 1. Refers to `spring-boot-kafka-consumer`, which is a subproject of this project
