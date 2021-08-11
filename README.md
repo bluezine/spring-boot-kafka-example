@@ -7,7 +7,7 @@
 ## Step2. Compile kafka
 1. Decompress source file
 2. Change directory `cd ${Decompress sourcefile location}/kafka-2.8.0-src`
-3. JAVA environment variable setting `export JAVA_HOME=...`
+3. (Optional) JAVA environment variable setting `export JAVA_HOME=...`
 4. Run command `./gradlew jar -PscalaVersion=2.13.5`
 
 ## Step3. Run kafka server
